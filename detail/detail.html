@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Detail Produits</title>
+    <link rel="stylesheet" href="css/detail.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <header class="header">
+
+        <form class="header-form" action="post">
+            <div class="lang-compte">
+                <select id="lang" name="lang">
+                    <option value="Fr" selected>Francais</option>
+                    <option value="Ang">Anglais</option>
+                    <option value="Chinois">Chinois</option>
+                </select>
+                <a id="compte" href="#">Espace client</a>
+            </div>
+        </form>
+        <img id="panier" src="../image/cart.jpg" alt="cart">
+
+    </header>
+
+    <nav class="nav">
+        <div class="logo">
+            <a href="../index.html" class="header-logo">
+                <img id="logo1" src="../image/logo.png" alt="">
+            </a>
+        </div>
+        <div class=nav-menu>
+
+            <a href="../index.html">ACCUEIL</a>
+            <a href="#">NOUS</a>
+            <a href="../catalogue/catalogue.html">PRODUITS</a>
+            <a href="#">CARRIERE</a>
+            <a href="../formulaire/formulaire.html">Contact</a>
+        </div>
+        <div class="nav-seach">
+            <input id="search" type="search" size="20" placeholder="Recherche" maxlength="50">
+            <button id="button" type="button"><img src="../image/icon-search.png" alt="search" height="15"></button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="laclassesection">
+
+            <div id="contdesImage">
+                <div id="images">
+                    <img src="../image/7.jpg" class="imgselect" alt="img">
+                    <img src="../image/8.jpg" class="imgselect" alt="img">
+                    <img src="../image/9.jpg" class="imgselect" alt="img">
+                    <img src="../image/10.jpg" class="imgselect" alt="img">
+                    <img src="../image/2.jpg" class="imgselect" alt="img">
+                </div>
+                <div id="limage">
+                    <img src="../image/j1.jpg" alt="img">
+                </div>
+
+
+            </div>
+            <div id="description1">
+                <form action="detail.html">
+                    <p>Prix : 300$ </p>
+                    <p> <label for="quantite"> Quantite </label> <input type="number" placeholder="1" min="1"
+                            id="quantite" required size="3">
+                    </p>
+                    <p> <input id="sub" type="submit" value="COMMANDER"></p>
+                </form>
+                <p>Disponible en magasin </p>
+                <p>LIVRAISON GRATUITE POUR UN TEMPS LIMITÉ</p>
+
+                <p>Cette offre est valide partout au Canada.
+                    Le temps d'expédition est de 4 à 7 jours ouvrables. (À noter que la livraison de certains articles
+                    en
+                    exclusivité Web pourrait être plus longue).</p>
+            </div>
+        </section>
+        <div id="description2">
+            <h3>Description</h3>
+            <p> Collection Hollow. Brillez de mille feux grâce à ce magnifique ensemble comprenant un collier à
+                placage rhodium et des boucles d'oreilles à tige assorties. Les boucles d'oreilles sont indémodables
+                avec leurs cristaux carrés encadrés d'un pavé de cristal tout à fait classique.
+                <p> Placage au rhodium</p>
+                <p> Cristal Swarovski</p>
+                <p>Fermoir du collier : Fermoir en pince de homard</p>
+                <p> Fermoir des boucles d'oreilles : Tige et papillon</p>
+                Importation
+
+                CARACTÉRISTIQUES
+                <p>Collier : environ 38 cm</p>
+                <p> Boucles d'oreilles : environ 1 cm</p>
+                <p> Numéro de modèle: 0600089598251</p>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="conteneur-bouton-haut-page"> <a href="#"><img id="haut-page" src="../image/haut-page.png"
+                    alt="haut-page"></a></div>
+        <div class="footer">
+            <nav class="footer-nav1">
+                <ul class="nav-footer">
+
+                    <li><a href="#">ACCUEIL </a></li>
+                    <li><a href="#">PRODUITS </a></li>
+                    <li><a href="#">NOUS </a></li>
+                    <li><a href="#">CARRIERE </a></li>
+                    <li><a href="#">CONTACT </a></li>
+
+
+                </ul>
+            </nav>
+            <div class="footer-nav1">
+                <ul class="nav-footer2">
+
+                    <li><a href="#">POLITIQUES </a></li>
+                    <li><a href="#">MODALITES </a></li>
+                    <li><a href="#">PARTENAIRES </a></li>
+                    <li><a href="#">MAGASINS </a></li>
+                    <li><a href="#">CONSEiLS </a></li>
+
+
+                </ul>
+            </div>
+            <div class="footer-adresse">
+                <span style=color:white>
+                    AFROSHOP MONTREAL <br><br>
+                    2100 boul. de Maisonneuve Est <br>
+                    étage #4 <br>
+                    Montréal, Québec, H2K 4S1 <br>
+                    Tel : 514 000 000 / 438 000 000 <br>
+                </span>
+            </div>
+            <div class="maps"><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.3025566276106!2d-73.64289478454322!3d45.54423883612033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc918e0c061b07f%3A0x647a6b6d7cb681a7!2sISI%2C+l&#39;Institut+sup%C3%A9rieur+d&#39;informatique!5e0!3m2!1sfr!2sca!4v1542287307084"
+                    width="600" height="450"></iframe></div>
+
+            <div class="reseau-sociaux-conteneur">
+                <div class="reseau-sociaux">
+                    <a href="https://www.facebook.com" class="fa fa-facebook"><img id="fb" src="../image/fb.png"
+                            alt="logo-fb"></a></div>
+                <div class="reseau-sociaux">
+                    <a href="https://twitter.com/?lang=fr" class="fa fa-twitter"><img id="tw" src="../image/tw.png"
+                            alt="logo-tw"></a></div>
+                <div class="reseau-sociaux">
+                    <a href="https://www.youtube.com" class="fa fa-youtube"><img id="yt" src="../image/yt.png"
+                            alt="logo-yt"></a></div>
+
+            </div>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>

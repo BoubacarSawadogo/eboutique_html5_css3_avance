@@ -1,0 +1,50 @@
+
+
+
+
+
+AE.define('AE.common.xman.xmanConfig',function(){
+  var xmanConfig = {
+    isNew:'new',
+    mode:'run',
+    xloginPassport: "",
+    passportDomain: "https://passport.alibaba.com",
+    getLoginTypeName : "xlogin",
+    getJoinTypeName : "d",
+    intlHatchServer : "https://ushatch.alibaba.com",
+    needUMID : eval("true"),
+    umidToken : "Bacda4675986f40ecaf9d090f44caa25a",
+    umidTimestamp: "0808769151545948564F6C7C",
+    umidServer: "https://ynuf.alibaba.com",
+    getActionJsSslUrl : "https://acjsus.aliyun.com/js/ua.js",
+    uaOptToken : "Dfosv3kwhzjffgP5z0o5otgh3AWj0ROU0F8FyOYaAnocv+iq8GYVIA5fT7IiqdzQgrvbxvgk0XOn6kFwIhgDB2eQ2zg1p+bu6v5eInkJZcTjFK3lIVdAOU+jSQJGJ5++Xl3P/qnCEsGZKSuX2V2hfQ==",
+    tvsProxyDomainName : 'alibaba',
+    currentXmanDomain : 'alibaba.com',
+    imageSslUrl : 'https://captcha.alibaba.com/get_img?identity=alibaba.com&sessionid=1f5457dbc68d4a4c913c76431cc5aa7e&kjtype=b2b_default',
+    getForgotPasswordLink : 'http://accounts.alibaba.com/user/company/forget_password_input_email.htm',
+    i18nLadingPlsWait : 'Chargement, veuillez patienter&hellip;',
+    // vmConfigs
+            xlogin_js_url : 'https://login.alibaba.com/xman/xlogin.js?pd=alibaba&pageFrom=&u_token=Bacda4675986f40ecaf9d090f44caa25a',
+    xlogin_group_name : ['xloginPassportId','xloginPasswordId','xloginCheckTokenId'],
+    xbind_group_name : ['xbindPassport','xbindPasswordId','xbindCheckToken'],
+    xjoin_group_name : ['','xjoinEmail','xjoinPassword','xjoinCountry','xjoinBusinessRoleBuyer','xjoinBusinessRoleSupplier','xjoinBusinessRole','xjoinFirstName','xjoinLastName','xjoinGender','xjoinGenderF','xjoinCompanyName','xjoinPhoneCountry','xjoinPhoneArea','xjoinPhoneNumber','xjoinCheckToken','xjoinGroupName'],
+    xjoin_js_url : 'https://login.alibaba.com/xman/xjoin.js?u_token=Bacda4675986f40ecaf9d090f44caa25a&pd=alibaba&pageFrom=',
+    xjoinbind_js_url : 'https://login.alibaba.com/xman/xbind.js?event_method=xjoinbind&xbind_partner_name='+window._xman_partner_name+'&xbind_partner_userid='+window._xman_partner_userid+'&pageFrom=&bindingSource=',
+    xbind_js_url : 'https://login.alibaba.com/xman/xbind.js?event_method=xbind&xbind_partner_name='+window._xman_partner_name+'&xbind_partner_userid='+window._xman_partner_userid+'&bindingSource=',
+    currentServer : "https://login.alibaba.com",
+    countryNameByIP : "Anonymous Proxy",
+    countryCodeByIP : "",
+	  localIp : "",
+    authorizeUrls : [],
+    isShowFacebook: '',
+    currentLocale: 'us',
+    enableEdm:false,
+    edmCountryList : []  };
+
+  xmanConfig.xuidUrls = [];
+      xmanConfig.xuidUrls.push('https://login.alibaba.com/xman/xuid.do?v=WTzJo6%2FaRbHWxb7BFh7SoteimIF3JQdZarBA58RtJKQkAWFUfvfNPzB%2FgPZ03AGY&ts=3bLGKzEMzQHayF5QEqyj3ISMaiorEwhSZVK5LmhPqy3GjzUhTMobvg%3D%3D');
+      xmanConfig.xuidUrls.push('https://login.aliexpress.com/xman/xuid.do?v=WTzJo6%2FaRbHWxb7BFh7SoteimIF3JQdZarBA58RtJKQkAWFUfvfNPzB%2FgPZ03AGY&ts=3bLGKzEMzQHayF5QEqyj3ISMaiorEwhSZVK5LmhPqy3GjzUhTMobvg%3D%3D');
+  
+  // 抛回模块化配置
+  this.exports = xmanConfig;
+});

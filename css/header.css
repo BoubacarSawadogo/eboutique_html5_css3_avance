@@ -1,0 +1,391 @@
+@media only screen and (min-width:1280px) {
+    /*HEADER*/
+    .nav-menu {
+        display: flex;
+        width: 80%;
+    }
+    .nav-seach {
+        display: flex;
+        width: 25%
+    }
+    .nav-seach:hover {
+        transform: scale(1.5);
+    }
+    #search {
+        background-color: black;
+        border-top: #000;
+        border-left: black;
+        border-bottom: 1px solid white;
+        color: white;
+        width: 70%;
+        border-radius: 10px;
+        height: 50px;
+    }
+    #button {
+        width: 20%;
+        height: 50px;
+    }
+    .nav {
+        width: 100%;
+        height: 70px;
+        padding-top: 20px;
+        display: flex;
+    }
+    .nav .logo {
+        width: 150px;
+        height: 20px;
+        margin-bottom: 0px;
+        transition: width 2s, height 2s, transform 2s;
+    }
+    .logo:hover img {
+        width: 150px;
+        height: 150px;
+        transform: rotate(180deg);
+    }
+    .nav .logo .header-logo {
+        width: 100%;
+    }
+    .nav .logo a #logo1 {
+        height: 70px;
+        width: 60%;
+        border-radius: 30px;
+    }
+    #header-logo {
+        width: 100%;
+    }
+    .nav .nav-menu {
+        width: 60%;
+        height: 40px;
+        border-bottom: 1px solid white;
+    }
+    .nav-menu a {
+        margin-right: 1%;
+        margin-left: 1%;
+        text-decoration: none;
+        margin-bottom: 20px;
+        color: white;
+        font-size: 100%;
+        letter-spacing: 1px;
+        padding: 2% 3% 2% 3%;
+        border-radius: 10px;
+    }
+    .nav-menu a:hover {
+        border-bottom: 2px soli blue;
+        border-top: 2px solid blue;
+        color: black;
+        background-color: lightgrey;
+    }
+    .nav-menu a:active {
+        color: green;
+    }
+    .nav-menu a:visited {
+        color: red;
+    }
+    .header {
+        display: flex;
+        padding-top: 8px;
+        height: 50px;
+        width: 100%;
+        border-bottom: 1px solid white;
+        box-shadow: 1px 2px 2.5px white;
+        border-radius: 20px
+    }
+    .header .header-form {
+        float: right;
+        height: 40px;
+        width: 90%;
+        position: relative;
+    }
+    .header .header-form .lang-compte {
+        float: right;
+        width: 100%;
+        padding-top: 7px;
+    }
+    #compte {
+        float: right;
+        margin: 0% 5% 0% 5%;
+        border-right: 1px solid white;
+        padding-right: 5%;
+        text-decoration: none;
+        color: white;
+    }
+    #lang {
+        float: right;
+        margin: 0% 5% 0% 5%;
+        padding-left: .2%;
+        background-color: #000;
+        color: white;
+        border-color: black
+    }
+    .header #panier {
+        width: 50px;
+        margin-right: 1%;
+        float: right;
+        height: 35px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1279px) {
+    /*
+HEADER
+*/
+    .nav-menu {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 80%;
+    }
+    .nav-seach {
+        display: flex;
+        width: 30%;
+    }
+    .nav-seach:hover {
+        transform: scale(1.5);
+    }
+    #search {
+        background-color: black;
+        border-top: #000;
+        border-left: black;
+        color: white;
+        width: 60%;
+        border-radius: 10px;
+        height: 50px;
+    }
+    #button {
+        width: 20%;
+        height: 50px;
+        margin-right: 5px;
+    }
+    .nav {
+        width: 100%;
+        height: 70px;
+        padding-top: 20px;
+        padding-left: 15%;
+        display: flex;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    .nav .logo {
+        width: 120px;
+        height: 20px;
+    }
+    .nav .logo .header-logo {
+        width: 100%;
+    }
+    .nav .logo a #logo1 {
+        height: 70px;
+        width: 60%;
+        border-radius: 30px;
+    }
+    #header-logo {
+        width: 100%;
+    }
+    #logo1 {
+        width: 300%;
+    }
+    .nav .nav-menu {
+        width: 40%;
+        height: 40px;
+    }
+    .nav-menu a {
+        margin-right: 1%;
+        margin-left: 1%;
+        text-decoration: none;
+        margin-bottom: 15px;
+        color: white;
+        font-size: 80%;
+        letter-spacing: 1px;
+        padding: 2% 3% 2% 3%;
+        border-radius: 10px;
+    }
+    .nav-menu a:hover {
+        border-bottom: 2px solid blue;
+        border-top: 2px solid blue;
+        background-color: lightgrey;
+    }
+    .nav-menu a:active {
+        color: green;
+    }
+    .nav-menu a:visited {
+        color: red;
+    }
+    .header {
+        display: flex;
+        margin: auto;
+        padding-top: 8px;
+        height: 50px;
+        width: 60%;
+        border-bottom: 1px solid white;
+        box-shadow: 1px 2px 2.5px white;
+        border-radius: 20px
+    }
+    .header .header-form {
+        float: right;
+        height: 40px;
+        width: 90%;
+        position: relative;
+    }
+    .header .header-form .lang-compte {
+        float: right;
+        width: 100%;
+        padding-top: 7px;
+    }
+    #compte {
+        float: right;
+        margin: 0% 5% 0% 5%;
+        border-right: 1px solid white;
+        padding-right: 5%;
+        text-decoration: none;
+        color: white;
+    }
+    #lang {
+        float: right;
+        margin: 0% 5% 0% 5%;
+        padding-left: .2%;
+        background-color: #000;
+        color: white;
+        border-color: black
+    }
+    .header #panier {
+        width: 50px;
+        margin-right: 1%;
+        float: right;
+        height: 35px;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:767px) {
+    font-face {
+        font-family: 'Magnificent Personal Use';
+        src: url('font/magnificent-personal-use/MagnificentPersonalUse.eot');
+        src: url('font/magnificent-personal-use/MagnificentPersonalUse.eot?#iefix') format('embedded-opentype'), url('font/magnificent-personal-use/MagnificentPersonalUse.woff2') format('woff2'), url('font/magnificent-personal-use/MagnificentPersonalUse.woff') format('woff'), url('font/magnificent-personal-use/MagnificentPersonalUse.ttf') format('truetype'), url('font/magnificent-personal-use/MagnificentPersonalUse.svg#MagnificentPersonalUse') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    body {
+        background-color: black;
+        width: 100%;
+    }
+    /* message sur aside : Nouveaux produits du mois*/
+    .nav-menu {
+        display: grid;
+        margin: 0px;
+        grid-template-columns: auto;
+        width: 60%;
+    }
+    .nav-seach {
+        display: flex;
+        width: 20%;
+    }
+    .nav-seach:hover {
+        transform: scale(1.5);
+    }
+    #search {
+        background-color: black;
+        border-top: #000;
+        border-left: black;
+        color: white;
+        width: 60%;
+        border-radius: 10px;
+        height: 30px;
+    }
+    #button {
+        width: 25%;
+        height: 30px;
+        margin-right: 5px;
+        border-radius: 30px;
+    }
+    .nav {
+        width: 100%;
+        height: 50px;
+        padding-top: 20px;
+        padding-left: 50px;
+        display: flex;
+        margin-bottom: 100px;
+        margin-left: 50px;
+    }
+    .nav .logo {
+        width: 80px;
+        height: 10px;
+    }
+    .nav .logo .header-logo {
+        width: 100%;
+    }
+    .nav .logo a #logo1 {
+        height: 70px;
+        width: 60%;
+        border-radius: 30px;
+    }
+    #header-logo {
+        width: 100%;
+    }
+    #logo1 {
+        width: 300%;
+    }
+    .nav .nav-menu {
+        width: 20%;
+    }
+    .nav-menu a {
+        margin-right: 1%;
+        margin-left: 1%;
+        text-decoration: none;
+        margin-bottom: 5px;
+        color: white;
+        font-size: 70%;
+        letter-spacing: 1px;
+        padding: 2% 3% 2% 3%;
+        border-radius: 10px;
+    }
+    .nav-menu a:hover {
+        border-bottom: 2px solid blue;
+        border-top: 2px solid blue;
+        background-color: lightgrey;
+    }
+    .nav-menu a:active {
+        color: green;
+    }
+    .nav-menu a:visited {
+        color: red;
+    }
+    .header {
+        display: flex;
+        margin-left: 60px;
+        padding-top: 8px;
+        height: 50px;
+        width: 80%;
+        background-color: black;
+        border-bottom: 1px solid white;
+        border-radius: 20px
+    }
+    .header .header-form {
+        float: right;
+        height: 20px;
+        width: 90%;
+        position: relative;
+    }
+    .header .header-form .lang-compte {
+        float: right;
+        width: 100%;
+        padding-top: 7px;
+    }
+    #compte {
+        float: left;
+        margin: 0% 5% 0% 5%;
+        border-right: 1px solid white;
+        padding-right: 10%;
+        font-size: 15px;
+        text-decoration: none;
+        color: white;
+    }
+    #lang {
+        float: right;
+        background-color: #000;
+        color: white;
+        border-color: black
+    }
+    .header #panier {
+        width: 40px;
+        margin-right: 1%;
+        float: right;
+        height: 30px;
+    }
+}
